@@ -1,5 +1,6 @@
 class Van
-  def initialize
+  DEFAULT_CAPACITY = 100
+  def initialize(capacity = DEFAULT_CAPACITY)
     @broken_bikes = []
     @working_bikes = []
   end

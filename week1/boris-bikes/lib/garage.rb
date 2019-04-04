@@ -1,5 +1,6 @@
 class Garage
-  def initialize
+  DEFAULT_CAPACITY = 1000
+  def initialize(capacity = DEFAULT_CAPACITY)
     @broken_bikes = []
     @working_bikes = []
   end
