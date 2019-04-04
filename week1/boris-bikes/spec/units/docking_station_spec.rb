@@ -30,9 +30,9 @@ describe DockingStation do
     expect(docking_station.capacity).to eq(20)
   end
 
-  it 'releases broken bikes' do
+  it 'releases broken bikes as an array' do
     subject.dock_bike(broken_bike)
     allow(broken_bike).to receive(:broken?).and_return(true)
-    expect(subject.release_broken_bike).to eq([broken_bike])
+    expect(subject.release_broken_bikes).to eq([broken_bike])
   end
 end

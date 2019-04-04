@@ -19,10 +19,10 @@ class DockingStation
     @bikes << bike
   end
 
-  def release_broken_bike
+  def release_broken_bikes
     @bikes.select{ |bike| bike.broken? }
   end
-  
+
   private
 
   def full?
