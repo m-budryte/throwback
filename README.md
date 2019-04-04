@@ -3,6 +3,6 @@ While at Makers starting from week 5, I go 4 weeks back and do old challenges fr
 
 Week 1
 
-[] Boris Bikes
+✅ Boris Bikes
 
 Currently: **Airport challenge**
